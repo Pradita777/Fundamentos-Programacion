@@ -11,7 +11,7 @@
 
 public class Sensor
 {
-    public static Sensor sensors[][];
+    public static Sensor[][] sensors;
 
     private int status;
 
@@ -20,7 +20,7 @@ public class Sensor
         this.status = 0;
     }
 
-    public Sensor( int status1)
+    public Sensor(int status1)
     {
         this.status = status1;
     }
@@ -59,7 +59,7 @@ public class Sensor
     public static String statusSensor()
     {
         String value1 = "";
-        for(int index2 = 0; index2<sensors.length; index2++)
+        for(int index2 = 0; index2 < sensors.length; index2++)
         {
             for (int jIndex2 = 0; jIndex2<sensors[0].length; jIndex2++)
             {

@@ -11,7 +11,7 @@
 
 public class Vehicle
 {
-    public static Vehicle vehicles[][];
+    public static Vehicle[][] vehicles;
     public static int size;
     public static int amount = 0;
 
@@ -86,7 +86,7 @@ public class Vehicle
 
         for(int index4 = 0; index4 < vehicles.length; index4++)
         {
-            for (int jIndex4 = 0; jIndex4 < vehicles[0].length; jIndex4++)
+            for(int jIndex4 = 0; jIndex4 < vehicles[0].length; jIndex4++)
             {
                 if (vehicles[index4][jIndex4] != null)
                 {
@@ -133,7 +133,7 @@ public class Vehicle
 
     public static void orderArray(Vehicle[] vehicle2)
     {
-        Vehicle temp[] = new Vehicle[amount];
+        Vehicle[] temp = new Vehicle[amount];
         for(int index6 = 1; index6 < amount ; index6++)
         {
             for(int jIndex6 = 0; jIndex6 < amount - 1; jIndex6++)
@@ -153,7 +153,7 @@ public class Vehicle
         String orderedList = "";
         int index8 = 0;
 
-        Vehicle vehicle2[] = new Vehicle[amount];
+        Vehicle[] vehicle2 = new Vehicle[amount];
 
         for(int index7 = 0; index7<vehicles.length;index7++)
         {
