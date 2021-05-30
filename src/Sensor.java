@@ -1,12 +1,12 @@
 /**
- * Project # 1: Parking.
+ * Project # 2: Parking.
  * Class name: Sensor.
  *
- * @ Jose Simon Atehortua.                  Student Code: 202110059010.
  * @ Andres Prada Rodriguez.                Student Code: 202110069010.
  * @ Mauricio David Correa Hernandez.       Student Code: 202117505010.
  *
  *  Version original. Date: 29/April/2021.
+ *  Version 1. Date: 24/May/2021.
  */
 
 public class Sensor
